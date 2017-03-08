@@ -2,12 +2,17 @@
   background-color: $nav-background;
   ul {
     background-color: $nav-background;
-  };
+  }
   .menu-text {
     color: $nav-text-color;
-  };
+  }
   .menu > .menu-text > a {
     display: inline;
     padding: 0;
-  };
+  }
+  .active-link {
+    font-weight: bold;
+    color: rgba(111, 227, 227, 0.85);
+    transition: all .15s;
+  }
 }
